@@ -1,0 +1,61 @@
+* {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(236, 236, 249);
+    margin: 0;
+}
+
+header, footer {
+    background-color: rgb(80, 76, 76);
+    margin: 0;
+    padding: 5vh;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.name {
+    padding-bottom: 2vh;
+}
+
+.portfolio {
+    font-size: 30px;
+    color: rgb(166, 166, 171);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.project-container {
+    background-color: #222;
+}
+
+.project-container > div {
+    padding: 5vh;
+}
+
+.my-projects {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+hr {
+    margin: auto;
+    width: 60vw;
+}
+
+.project > div {
+    padding: 5vh;
+}
+
+.project-head {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+img {
+    width: 300px;
+    object-fit: contain;
+}
